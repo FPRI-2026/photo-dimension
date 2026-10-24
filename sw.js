@@ -9,7 +9,7 @@
  *   画面を開いている途中で入れ替えない（skipWaiting を使わない）。
  * - 扱うのは自分の公開先（同じ場所）への GET だけ。外部（Google など）への通信には一切関与しない（8 章 3）。
  */
-const PRECACHE = {"version":"0.19.0-e5206a6efbd4","files":["THIRD_PARTY_LICENSES.txt","assets/index-BwA681jR.js","assets/index-b8-tDg4g.css","fonts/BIZUDPGothic-Regular.ttf","fonts/OFL.txt","fonts/README.txt","icons/icon-192.png","icons/icon-512.png","index.html","manifest.webmanifest"]};
+const PRECACHE = {"version":"0.20.0-30184e8b2609","files":["THIRD_PARTY_LICENSES.txt","assets/index-BLLS0kOs.js","assets/index-b8-tDg4g.css","fonts/BIZUDPGothic-Regular.ttf","fonts/OFL.txt","fonts/README.txt","icons/icon-192.png","icons/icon-512.png","index.html","manifest.webmanifest"]};
 const CACHE_PREFIX = 'photo-dimension-';
 const CACHE_NAME = CACHE_PREFIX + (PRECACHE ? PRECACHE.version : 'dev');
 /** このサービスワーカーが受け持つ場所（アプリの入口）。GitHub Pages のプロジェクトサイトでも相対で動く */
